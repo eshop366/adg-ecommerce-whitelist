@@ -1,0 +1,269 @@
+! Title: 电商平台广告白名单
+! Description: 适用于 AdGuardHome，放行主流电商平台广告及追踪域名
+! 规则格式: @@ 开头为白名单放行，^ 结尾为域名边界符
+! 更新日期: 2025-04
+! 使用方法: AdGuardHome → 过滤器 → 自定义过滤规则 → 粘贴以下内容
+
+! ============================================================
+! 阿里系 - 国内
+! ============================================================
+@@||alimama.com^
+@@||mmstat.com^
+@@||aliyun.com^
+@@||alibaba.com^
+@@||alicdn.com^
+@@||alibabacloud.com^
+@@||taobao.com^
+@@||tmall.com^
+@@||tmall.hk^
+@@||1688.com^
+@@||alipay.com^
+@@||alipayobjects.com^
+@@||amap.com^
+@@||youku.com^
+@@||uc.cn^
+@@||ucweb.com^
+@@||tanx.com^
+@@||taobaocdn.com^
+@@||tbcdn.cn^
+@@||etao.com^
+@@||ju.taobao.com^
+@@||s.taobao.com^
+@@||log.mmstat.com^
+@@||arms.aliyuncs.com^
+@@||aplus.taobao.com^
+@@||ald.taobao.com^
+
+! ============================================================
+! 阿里系 - 国际（速卖通 / Lazada / AliExpress）
+! ============================================================
+@@||aliexpress.com^
+@@||aliexpressbusiness.com^
+@@||ae01.alicdn.com^
+@@||lazada.com^
+@@||lazada.co.id^
+@@||lazada.co.th^
+@@||lazada.com.my^
+@@||lazada.com.ph^
+@@||lazada.sg^
+@@||lazada.vn^
+@@||lazcdn.com^
+@@||miravia.es^
+@@||daraz.pk^
+@@||daraz.com.bd^
+
+! ============================================================
+! 京东系
+! ============================================================
+@@||jd.com^
+@@||jd.hk^
+@@||jdcloud.com^
+@@||360buy.com^
+@@||360buyimg.com^
+@@||jcloudcs.com^
+@@||jdwl.com^
+@@||jdpay.com^
+@@||jdl.com^
+@@||jd.id^
+@@||jd.th^
+@@||jdglobal.com^
+@@||jdworldwide.com^
+@@||jdcorporate.com^
+@@||jdaq.com^
+@@||joybuy.com^
+@@||paipai.com^
+@@||m.jd.com^
+@@||union.jd.com^
+@@||adv.jd.com^
+@@||gia.jd.com^
+
+! ============================================================
+! 拼多多系（国内 + Temu）
+! ============================================================
+@@||pinduoduo.com^
+@@||pdd.com^
+@@||yangkeduo.com^
+@@||temu.com^
+@@||temupay.com^
+@@||temucdn.com^
+@@||temuads.com^
+@@||temujsapi.com^
+@@||temu.shop^
+@@||pddimg.com^
+@@||pddpic.com^
+@@||mobile.yangkeduo.com^
+@@||ad.pinduoduo.com^
+@@||ads.pinduoduo.com^
+@@||tracker.pinduoduo.com^
+
+! ============================================================
+! 抖音电商系列（字节跳动）
+! ============================================================
+@@||douyin.com^
+@@||douyinpay.com^
+@@||douyinec.com^
+@@||douyincdn.com^
+@@||bytedance.com^
+@@||byteimg.com^
+@@||bytegoofy.com^
+@@||byteoversea.com^
+@@||bytecdn.cn^
+@@||pstatp.com^
+@@||snssdk.com^
+@@||toutiao.com^
+@@||toutiaoimg.com^
+@@||ixigua.com^
+@@||feishu.cn^
+@@||oceanengine.com^
+@@||iescloud.com^
+@@||volces.com^
+@@||byteunion.com^
+@@||bdstatic.com^
+@@||unionpay.bytedance.com^
+@@||ad.oceanengine.com^
+@@||ad.toutiao.com^
+@@||analytics.douyinec.com^
+
+! ============================================================
+! TikTok 电商系列（字节跳动国际版）
+! ============================================================
+@@||tiktok.com^
+@@||tiktokcdn.com^
+@@||tiktokv.com^
+@@||tiktokbytedance.com^
+@@||tiktokd.com^
+@@||tiktokw.com^
+@@||tiktok-row.com^
+@@||tiktokshop.com^
+@@||tiktokseller.com^
+@@||ttlivestreaming.com^
+@@||tiktokcdn-us.com^
+@@||tiktokcdn-eu.com^
+@@||tiktokapis.com^
+@@||log-va.tiktokv.com^
+@@||analytics.tiktok.com^
+@@||ads.tiktok.com^
+@@||business.tiktok.com^
+@@||sf16-website-login.neutral.ttwstatic.com^
+@@||ttwstatic.com^
+@@||ibytedtos.com^
+@@||ibyteimg.com^
+
+! ============================================================
+! Amazon 系
+! ============================================================
+@@||amazon.com^
+@@||amazon.co.jp^
+@@||amazon.co.uk^
+@@||amazon.de^
+@@||amazon.fr^
+@@||amazon.it^
+@@||amazon.es^
+@@||amazon.ca^
+@@||amazon.com.au^
+@@||amazon.com.mx^
+@@||amazon.com.br^
+@@||amazon.in^
+@@||amazon.ae^
+@@||amazon.sa^
+@@||amazon.sg^
+@@||amazon.nl^
+@@||amazon.se^
+@@||amazon.pl^
+@@||amazon.com.be^
+@@||amazon.eg^
+@@||amazonadvertising.com^
+@@||amazonbusiness.com^
+@@||amazonpay.com^
+@@||amazonsupply.com^
+@@||amazonaws.com^
+@@||cloudfront.net^
+@@||media-amazon.com^
+@@||ssl-images-amazon.com^
+@@||images-amazon.com^
+@@||images-na.ssl-images-amazon.com^
+@@||fls-na.amazon.com^
+@@||affiliate-program.amazon.com^
+@@||advertising.amazon.com^
+@@||sellercentral.amazon.com^
+@@||vendor.amazon.com^
+@@||aax.amazon.com^
+@@||aax-us-east.amazon.com^
+@@||aax-eu.amazon.com^
+@@||c.amazon-adsystem.com^
+@@||amazon-adsystem.com^
+@@||amazonvideo.com^
+@@||primevideo.com^
+@@||associates.amazon.com^
+@@||ir-na.amazon-adsystem.com^
+
+! ============================================================
+! SHEIN 系
+! ============================================================
+@@||shein.com^
+@@||sheincorp.com^
+@@||sheingroup.com^
+@@||shein.co.uk^
+@@||shein.de^
+@@||shein.fr^
+@@||shein.es^
+@@||shein.com.mx^
+@@||shein.com.br^
+@@||shein.com.au^
+@@||shein.in^
+@@||shein.jp^
+@@||shein.sa^
+@@||shein.ae^
+@@||sheingo.com^
+@@||sheinlink.com^
+@@||sheinsz.com^
+@@||romwe.com^
+@@||sheincorp-static.com^
+@@||img.ltwebstatic.com^
+@@||ltwebstatic.com^
+@@||shein-static.com^
+@@||sheinads.com^
+@@||sheindatacenter.com^
+@@||af.shein.com^
+@@||track.shein.com^
+@@||ads.shein.com^
+
+! ============================================================
+! Shopee 系（冬海集团）
+! ============================================================
+@@||shopee.com^
+@@||shopee.sg^
+@@||shopee.co.id^
+@@||shopee.co.th^
+@@||shopee.com.my^
+@@||shopee.com.ph^
+@@||shopee.vn^
+@@||shopee.com.br^
+@@||shopee.com.mx^
+@@||shopee.cl^
+@@||shopee.com.co^
+@@||shopee.kr^
+@@||shopee.tw^
+@@||shopee.in^
+@@||shopeepay.com^
+@@||shopee.io^
+@@||shopeecdn.com^
+@@||spaysb.com^
+@@||spay.com^
+@@||shopeemobile.com^
+@@||shopee-static.com^
+@@||s.shopee.sg^
+@@||s.shopee.co.id^
+@@||s.shopee.co.th^
+@@||s.shopee.com.my^
+@@||cf.shopee.sg^
+@@||ads.shopee.com^
+@@||adscdn.shopee.com^
+@@||track.shopee.com^
+@@||analytics.shopee.com^
+@@||affiliate.shopee.com^
+@@||seller.shopee.com^
+@@||seatalk.io^
+@@||sea.com^
+@@||seagroup.com^
+EOF
